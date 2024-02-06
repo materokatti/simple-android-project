@@ -1,0 +1,45 @@
+# 빌드 출력
+/build/
+
+# Gradle 파일
+.gradle/
+gradle-wrapper.jar
+
+# 로컬 설정 파일
+/local.properties
+
+# 로그 파일
+*.log
+
+# Android Studio 설정 파일
+.idea/
+*.iml
+
+# Android Studio의 캐시 파일
+.captures/
+.navigation/
+
+# Keystore 파일
+*.jks
+*.keystore
+
+# 외부 라이브러리
+.externalNativeBuild/
+
+# 생성된 코드
+/app/build/
+
+# Google Services (예: google-services.json)
+# /app/google-services.json
+
+# Fabric 설정 파일
+/fabric.properties
+
+# Proguard 폴더
+/proguard/
+/proguard_files/
+
+# 기타 무시할 파일
+.DS_Store
+Thumbs.db
+
