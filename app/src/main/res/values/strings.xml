@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">android study</string>
     <string name="open_button">OPEN</string>
+    <string name="close_button">CLOSE</string>
 </resources>
