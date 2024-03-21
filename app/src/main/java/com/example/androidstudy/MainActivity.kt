@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     fun onButtonClick(view: View) {
         // ImageView의 가시성을 토글
-        imageView.visibility = if (imageView.visibility == View.VISIBLE) View.GONE else View.VISIBLE
+        if (view.id == R.id.button1) {
+            // ImageView의 가시성을 토글합니다.
+            imageView.visibility = if (imageView.visibility == View.VISIBLE) View.GONE else View.VISIBLE
+        }
     }
 }
