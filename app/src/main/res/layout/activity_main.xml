@@ -8,41 +8,8 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/logo_dog"
+    <com.example.androidstudy.CustomDrawView
+        android:id="@+id/customDrawView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logo_dog"
-        android:maxWidth="100pt"
-        android:maxHeight="100pt"
-        android:adjustViewBounds="true"
-        />
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/open_button"
-        android:padding="20dp"
-        android:layout_marginBottom="60dp"
-        android:background="@color/primary_red"
-        android:onClick="onButtonClick"
-        />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:background="@color/primary_blue"
-        android:text="@string/close_button"
-        android:onClick="onButtonClick"
-        />
-
-    <EditText
-        android:id="@+id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:text="focus fail" />
-
+        android:layout_height="match_parent" />
 </LinearLayout>
